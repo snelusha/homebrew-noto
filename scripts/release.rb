@@ -49,7 +49,7 @@ unless versioned_formula.include?("keg_only")
 end
 
 versioned_class = "class NotoAT#{version.gsub(/\./, "")}"
-versioned_formula = formula.gsub(/class Bun/, versioned_class)
+versioned_formula = formula.gsub(/class Noto/, versioned_class)
 
 File.write("Formula/noto@#{version}.rb", versioned_formula)
 puts "Saved Formula/noto@#{version}.rb"
