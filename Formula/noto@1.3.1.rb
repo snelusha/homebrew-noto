@@ -1,4 +1,4 @@
-class Noto < Formula
+class NotoAT131 < Formula
   desc "Generate clean commit messages in a snap! ✨"
   homepage "https://noto.snelusha.dev"
   version "1.3.1"
